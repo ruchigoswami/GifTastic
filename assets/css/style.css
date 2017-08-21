@@ -1,0 +1,77 @@
+body {
+    background: url(../images/black.png);
+    background-repeat: repeat;
+}
+
+.jumbotron {
+  position: relative;
+  background-color: transparent;
+  padding: 20px;
+  margin: 20px;
+  text-shadow: 1px 1px 2px black, 0 0 15px white, 0 0 5px darkblue;
+}
+.jumbotron h1 {
+    
+  color: #d9ff66;
+}
+
+.animalButton {
+  padding: 8px 30px;
+  margin: 5px;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 15px;
+  background-color:#d9ff66;
+  box-shadow: 0 6px #999;
+  border: none;
+}
+
+.animalButton:hover {
+  background-color: #f2d3e7;
+}
+.formPanel {
+  position: relative;
+  top: 40px;
+  right: 40px;
+  border-radius: 15px;
+  background-color:#d9ff66;
+  height: 145px;
+}
+
+.input-label {
+  font-size: 15px;
+  color: black;
+  margin: 15px ;
+  margin-left: 32px;
+}
+
+#input-animal {
+  width: 137px;
+  margin-left: 15px;
+
+}
+
+#add-animal {
+  margin-top: 15px;
+  margin-left: 15px;
+  padding: 5px 45px;
+  border-radius: 5px;
+}
+
+.animal-view-new {
+  margin: 10px;
+  float: left;
+  border-radius: 20px ;
+  position: relative;
+  left: -25px;
+  background-color: #d9ff66;
+}
+
+
+.animal-view-new h2 {
+  font-size: 20px;
+  color:gray;
+  text-align: center;
+  position: relative;
+  top: -3px;
+}
